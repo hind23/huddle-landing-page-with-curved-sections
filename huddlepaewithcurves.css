@@ -1,0 +1,109 @@
+section
+{
+padding: 30px;
+}
+.logo
+{
+    height: 30px;  
+}
+.button
+{
+float: right;  
+border-radius: 30px;  
+border-color:hsl(322, 100%, 66%) ;
+background-color: transparent;
+border-width: 1px;
+}
+button:hover 
+{
+    box-shadow:0.25px 0.25px 5px 0.25px hsl(322deg 100% 66%) ;
+}
+button a:hover
+{
+text-decoration: none;
+color : hsl(322, 100%, 66%) ;
+} 
+
+button a
+{
+    color:hsl(322, 100%, 66%)  ;
+}
+div section p
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+div h1
+{
+    font-weight: bold;
+}
+.container
+{
+    position: relative;
+}
+div button
+{
+    border-radius: 30px;
+    color: white;
+    background-color:hsl(322, 100%, 66%) ;
+    padding : 7px 20px 7px 13px ;
+    padding-left: 13px;
+    border-color: transparent ;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div button:active
+{
+    border-color: transparent ;
+}
+.center
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ @media (min-width:375px) {
+    .letsgrowtogether
+    {
+       
+        display: block;
+        margin-left: auto;
+    }
+} 
+.flowingconversation
+{
+    width:80%;
+    margin-right: auto;
+
+    display: block;
+}
+.big
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.button3
+{
+margin-top: 60px;
+margin-left: auto; 
+margin-right: auto;
+border-radius: 35px;  
+background-color:hsl(322, 100%, 66%) ;
+border-width: 1px;
+border-color: transparent;
+padding: 15px;
+display: block;
+width: 20%;
+font-size: 15px;
+}
+.footer
+{
+    background-image: url('images/bg-footer-top-desktop.svg');
+    background-size: 120% 100%;
+    
+}
